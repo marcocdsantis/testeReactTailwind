@@ -28,7 +28,6 @@ export default function UsersPage() {
   };
 
   const handleUserAdded = () => {
-    // debugger;
     fetchUsers();
   };
 

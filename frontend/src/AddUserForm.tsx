@@ -12,8 +12,6 @@ export default function AddUserForm({ onUserAdded }: AddUserFormProps) {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    debugger;
-
     try {
       await axios.post("http://localhost:5289/users", { name, email }, { headers:{"Content-Type": "application/json" }});
       setName("");

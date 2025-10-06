@@ -1,5 +1,5 @@
 import "./index.css";
-import AddUserForm from "./AddUserForm";
+import UsersPage from "./UsersPage";
 
 export default function App() {
   return (
@@ -9,7 +9,7 @@ export default function App() {
           Gerenciar Usuários
         </h1>
 
-        <AddUserForm />
+        <UsersPage />
       </section>
     </main>
   );
