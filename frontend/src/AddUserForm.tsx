@@ -13,7 +13,11 @@ export default function AddUserForm({ onUserAdded }: AddUserFormProps) {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:5289/users", { name, email }, { headers:{"Content-Type": "application/json" }});
+      await axios.post(
+        "http://localhost:5289/users",
+        { name, email },
+        { headers: { "Content-Type": "application/json" } }
+      );
       setName("");
       setEmail("");
       onUserAdded();

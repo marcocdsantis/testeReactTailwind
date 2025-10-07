@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("desafioPraticoCrudSimples")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e18962249c30251e61f2fe0933e5bf7eecdea77a")]
 [assembly: System.Reflection.AssemblyProductAttribute("desafioPraticoCrudSimples")]
 [assembly: System.Reflection.AssemblyTitleAttribute("desafioPraticoCrudSimples")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -36,3 +36,4 @@ C:\Users\Usuário\Desktop\desafioPratico\desafioPraticoCrudSimples\desafioPratic
 C:\Users\Usuário\Desktop\desafioPratico\desafioPraticoCrudSimples\desafioPraticoCrudSimples\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Usuário\Desktop\desafioPratico\desafioPraticoCrudSimples\desafioPraticoCrudSimples\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Usuário\Desktop\desafioPratico\desafioPraticoCrudSimples\desafioPraticoCrudSimples\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Usuário\Desktop\desafioPratico\desafioPraticoCrudSimples\desafioPraticoCrudSimples\obj\Debug\net9.0\desafioPraticoCrudSimples.sourcelink.json

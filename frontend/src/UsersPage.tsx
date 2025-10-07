@@ -7,7 +7,8 @@ export default function UsersPage() {
 
   const fetchUsers = async () => {
     try {
-      const res = await axios.get("http://localhost:5289/users"); 
+      const res = await axios.get("http://localhost:5289/users");
+      setUsers(res.data);
     } catch (err) {
       console.error("Erro ao buscar usuários:", err);
     }
@@ -21,7 +22,7 @@ export default function UsersPage() {
     if (!confirm("Tem certeza que deseja excluir este usuário?")) return;
     try {
       await axios.delete(`http://localhost:5289/users/${id}`);
-      fetchUsers(); 
+      setUsers(users.filter((u: any) => u.id !== id));
     } catch (err) {
       console.error("Erro ao excluir usuário:", err);
     }

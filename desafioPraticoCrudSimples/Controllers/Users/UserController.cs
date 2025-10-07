@@ -52,18 +52,21 @@ public class UserController(ILogger<UserController> logger) : ControllerBase
         }
     }
 
-    [HttpDelete("userId")]
+    [HttpDelete("{userId}")]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType<ServiceResult>(StatusCodes.Status400BadRequest)]
-    public async Task<IActionResult> Delete([FromQuery] Guid userId,
-                                           [FromServices] UserService uService,
-                                           CancellationToken cancellationToken = default)
+    public async Task<IActionResult> Delete([FromRoute] Guid userId,
+                                            [FromServices] UserService uService,
+                                            CancellationToken cancellationToken = default)
     {
         try
         {
             var deleteUser = uService.Delete(userId);
+            
+            if (!deleteUser)
+                return NotFound();
 
-            return Ok(deleteUser);
+            return NoContent();
         }
         catch (Exception)
         {

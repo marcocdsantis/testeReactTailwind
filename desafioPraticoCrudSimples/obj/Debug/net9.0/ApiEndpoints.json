@@ -58,7 +58,7 @@
   {
     "ContainingType": "desafioPraticoCrudSimples.Controllers.Users.UserController",
     "Method": "Delete",
-    "RelativePath": "users/userId",
+    "RelativePath": "users/{userId}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -66,7 +66,7 @@
       {
         "Name": "userId",
         "Type": "System.Guid",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
