@@ -36,7 +36,7 @@ export default function AddUserForm({ onUserAdded }: AddUserFormProps) {
         placeholder="Nome"
         value={name}
         onChange={(e) => setName(e.target.value)}
-        className="border border-slate-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-400 outline-none"
+        className="bg-white border border-slate-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-400 outline-none"
       />
 
       <input
@@ -44,7 +44,7 @@ export default function AddUserForm({ onUserAdded }: AddUserFormProps) {
         placeholder="E-mail"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-        className="border border-slate-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-400 outline-none"
+        className="bg-white border border-slate-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-400 outline-none"
       />
 
       <button
